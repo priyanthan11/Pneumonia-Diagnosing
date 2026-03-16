@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 import unittest
 
 # Data dir
-data_dir = "C:/_____ DeepLearning AI/2 Deep Learning Pytorch/PyTorch Techniques and ecosystem Tools/4. Efficient Training Pipelines/Pneumonia Diag/chest_xray"
+data_dir = "./chest_xray"
 
 
 def display_dataset_count(data_dir):
@@ -810,7 +810,7 @@ if __name__ == "__main__":
     # ── Predict a single image ──
     result = predict_image(
         model,
-        image_path="C:/_____ DeepLearning AI/2 Deep Learning Pytorch/PyTorch Techniques and ecosystem Tools/4. Efficient Training Pipelines/Pneumonia Diag/chest_xray/test/NORMAL/IM-0003-0001.jpeg",
+        image_path="IMAGE PATH",
         class_names=CLASS_NAMES
     )
     print("/n--- Single Image Prediction ---")
